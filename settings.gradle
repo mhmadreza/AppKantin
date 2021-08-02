@@ -1,0 +1,2 @@
+rootProject.name = "Kantin"
+include ':app'
