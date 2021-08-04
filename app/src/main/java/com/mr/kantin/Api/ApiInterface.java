@@ -23,4 +23,11 @@ public interface ApiInterface {
             @Field("harga_mkn") String harga_mkn
     );
 
+    /* Delete Data Makanan */
+    @FormUrlEncoded
+    @POST("hapus.php")
+    Call<ResMakanan> hapusMakanan(
+            @Field("id_mkn") String id_mkn
+    );
+
 }
